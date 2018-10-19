@@ -15,11 +15,11 @@
     "path": "/",
     "branch": "sim"
   },
-  "pserver": {
-    "email": "username",
-    "password": "Password",
+  "s1": {
+    "email": "USERNAME",
+    "password": "PASSWORD",
     "protocol": "http",
-    "hostname": "1.2.3.4",
+    "hostname": "127.0.0.1",
     "port": 21025,
     "path": "/",
     "branch": "main"
