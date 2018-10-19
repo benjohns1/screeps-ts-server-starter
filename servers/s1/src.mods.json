@@ -1,0 +1,10 @@
+{
+  "mods": [
+    "mods/welcome-text.js",
+    "mods/tick-duration.js",
+    "node_modules/screepsmod-auth/index.js"
+  ],
+  "bots": {
+    "simplebot": "node_modules/@screeps/simplebot/src"
+  }
+}

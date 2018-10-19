@@ -1,15 +1,16 @@
-# yarn lock file
-/yarn.lock
-
-# npm lock file (v5.0.0+)
-/package-lock.json
-
 # Ignore basic folders
 /dist
 /.rpt2_cache
 /tsc-out
 /node_modules
-/_book
+
+# Ignore server data but keep local mods and configs
+/servers/*/*
+!/servers/default/*
+!/servers/*/mods
+!/servers/*/package.json
+!/servers/*/package-lock.json
+!/servers/*/src.mods.json
 
 # TypeScript definitions installed by Typings
 /typings
@@ -39,6 +40,7 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 .idea
+.vscode/
 
 # =========================
 # Operating System Files
