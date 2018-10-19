@@ -10,11 +10,16 @@ Forked from [screeps-typescript-starter](https://github.com/screepers/screeps-ty
 3. Make this your own repo `git init`
 4. `npm i`
 5. In your Screeps client, generate an auth token from your [account page](https://screeps.com/a/#!/account)
-6. Copy `screeps.sample.json` to `screeps.json` and add your token to `main`
+6. Copy `screeps.sample.json` to `screeps.json` and add your token to `main` and `sim`
 
 ## Develop
-1. `npm run watch-main`
-2. Build an awesome Screeps AI
+1. `npm run watch-sim`
+2. Open [screeps.com simulation](https://screeps.com/a/#!/sim/survival) and switch to the `sim` branch
+3. Build an awesome Screeps AI!
+
+Watch and push to your main screeps world: `npm run watch-main`<br/>
+Typescript linting: `npm run lint`<br/>
+Use `npm run push-sim` or `npm run push-main` for a single code push, rather than using a watcher
 
 For additional details, please see the excellent [screeps-typescript-starter docs](https://screepers.gitbook.io/screeps-typescript-starter).
 
